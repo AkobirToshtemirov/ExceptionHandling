@@ -6,14 +6,31 @@ public class ExceptionHandling {
             char[] chars = welcome.toCharArray();
             char lastChar = chars[chars.length - 1];
             System.out.println("Last Char: " + lastChar);
-
-            String nothing = null;
-            System.out.println(nothing.length());
-        } catch (Exception e) {
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Array index Exception");
             e.printStackTrace();
             return;
+        } catch (Exception e) {
+            System.out.println("Any Exception");
         }
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+        try {
+            doSomething();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
         System.out.println("Code ran successfully!");
 
+    }
+
+    public static void doSomething() throws InterruptedException {
+        Thread.sleep(1000);
     }
 }
