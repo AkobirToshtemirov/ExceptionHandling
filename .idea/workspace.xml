@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec2e693f-f05b-4721-aa68-7d9a677b840d" name="Changes" comment="add try catch Exception handler">
+    <list default="true" id="ec2e693f-f05b-4721-aa68-7d9a677b840d" name="Changes" comment="add how to deal with checked and unchecked Exceptions">
+      <change afterPath="$PROJECT_DIR$/src/Encapsulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrefixAgain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionHandling.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,14 +30,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.PrefixAgain">
     <configuration name="ExceptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExceptionHandling" />
       <module name="Practices" />
@@ -44,8 +45,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrefixAgain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrefixAgain" />
+      <module name="Practices" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrefixAgain" />
         <item itemvalue="Application.ExceptionHandling" />
       </list>
     </recent_temporary>
@@ -73,12 +82,20 @@
       <option name="project" value="LOCAL" />
       <updated>1680416855047</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add how to deal with checked and unchecked Exceptions">
+      <created>1680418175467</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680418175467</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add practices" />
     <MESSAGE value="add try catch Exception handler" />
-    <option name="LAST_COMMIT_MESSAGE" value="add try catch Exception handler" />
+    <MESSAGE value="add how to deal with checked and unchecked Exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="add how to deal with checked and unchecked Exceptions" />
   </component>
 </project>
